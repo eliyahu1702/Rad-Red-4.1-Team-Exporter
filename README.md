@@ -1,5 +1,7 @@
 <h1>Pokemon Radical Red v4.1 Team Exporter</h1>
-Ok
+here is the link to the website:
+<h2>https://rad-red-41-team-exporter.streamlit.app/</h2>
+ok
 this is just a very quick way to import all of your Pokemon Radical Red v4.1 team to a showdown team.
 <br>
 what does it export:
