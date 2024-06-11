@@ -225,7 +225,7 @@ def Print_Pokemon_Party(sav_file_path):
             pokemon_text+= f"Ability: {pokemon['ability']}\n"
             pokemon_text+= f"Level: {pokemon['level']}\n"
             pokemon_text+= f"EVs: {pokemon['ev_hp']} HP / {pokemon['ev_attack']} Atk / {pokemon['ev_defense']} Def / {pokemon['ev_speed']} Spe / {pokemon['ev_special_attack']} SpA / {pokemon['ev_special_defense']} SpD\n"
-            pokemon_text+= f"{pokemon['nature']} nature\n"
+            pokemon_text+= f"{pokemon['nature']} Nature\n"
             pokemon_text+= f"IVs: {pokemon['iv_hp']} HP / {pokemon['iv_attack']} Atk / {pokemon['iv_defense']} Def / {pokemon['iv_speed']} Spe / {pokemon['iv_special_attack']} SpA / {pokemon['iv_special_defense']} SpD\n"
             pokemon_text+= f"- {pokemon['move1']}\n"
             pokemon_text+= f"- {pokemon['move2']}\n"
