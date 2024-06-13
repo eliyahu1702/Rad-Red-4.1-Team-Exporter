@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 abilities = pd.read_csv("species_abilities.csv")
 # Function to get the ability of a given species and ability type
+
 def get_ability(species, ability_type):
     # Find the row for the given species
     species_row = abilities[abilities['Species'] == species]
@@ -234,6 +235,7 @@ def Print_Pokemon_Party(sav_file_path):
             pokemon_text+= "\n"
     except Exception as e:
         print(f"Error: {e}")
+        st.toast("Bad File", icon="❌")
     return pokemon_text
 
 def process_file_streamlit(file):
@@ -246,10 +248,8 @@ st.title("Radical Red Team Exporter")
 
 # File upload
 uploaded_file = st.file_uploader("Choose a radical red 4.1  .sav file", type="sav")
-
-result = Print_Pokemon_Party(uploaded_file)
-st.text_area("Pokemon Party", value=result, height=400)
-if result:
-    st.toast("file uploaded")
-# Provide a button to copy text to clipboard (this is a placeholder since Streamlit can't directly access clipboard)
-st.download_button(label="Download Processed Content", data=result, file_name="processed_content.txt")
+if uploaded_file:
+    result = Print_Pokemon_Party(uploaded_file)
+    text_file = st.code(result)
+    if result:
+        st.toast("file uploaded", icon="✅")
