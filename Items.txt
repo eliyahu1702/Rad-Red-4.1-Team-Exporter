@@ -203,15 +203,15 @@ Light Ball
 Soft Sand   
 Hard Stone  
 Miracle Seed
-BlackGlasses
+Black Glasses
 Black Belt  
 Magnet      
 Mystic Water
 Sharp Beak  
 Poison Barb 
-Nevermeltice
+Never-Melt Ice
 Spell Tag   
-TwistedSpoon
+Twisted Spoon
 Charcoal    
 Dragon Fang 
 Silk Scarf  
@@ -369,7 +369,7 @@ Rainbow Pass
 Tea         
 Mystic Ticke
 Aurora Ticke
-Locater  Dev
+Locater Dev
 Ruby        
 Sapphire    
 -DONT USE- -
@@ -722,7 +722,7 @@ Psychic Seed
 Eject Pack  
 Room Service
 Blunder Policy
-HeavyDBoots 
+Heavy-Duty Boots 
 Utility Umbrella
 Throat Spray
 Machampite  
